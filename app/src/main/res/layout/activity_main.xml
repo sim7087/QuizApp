@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.quizapp071997.quiz.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@color/blue"
+            android:gravity="center"
+            android:text="@string/bolly"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type your name here"
+            android:inputType="textCapWords" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#E1BEE7"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/textViewCustomize"
+                android:text="@string/one"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <TextView
+                style="@style/textViewCustomize"
+                android:text="@string/ques1"
+                android:textAppearance="?android:textAppearanceLarge" />
+        </LinearLayout>
+
+        <include layout="@layout/nav" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_view_1"
+                style="@style/answer" />
+
+            <ImageView
+                android:id="@+id/smiley"
+                style="@style/answerImage" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#E1BEE7"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/textViewCustomize"
+                android:text="@string/two"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <TextView
+                style="@style/textViewCustomize"
+                android:text="@string/ques2"
+                android:textAppearance="?android:textAppearanceLarge" />
+        </LinearLayout>
+
+        <TextView
+            style="@style/customizeButton"
+            android:text="@string/opt4" />
+
+        <TextView
+            style="@style/customizeButton"
+            android:text="@string/opt5" />
+
+        <TextView
+            style="@style/customizeButton"
+            android:text="@string/opt6" />
+
+        <EditText
+            android:id="@+id/question_02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter option number"
+            android:inputType="number" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_view_2"
+                style="@style/answer" />
+
+            <ImageView
+                android:id="@+id/smiley2"
+                style="@style/answerImage" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#E1BEE7"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/textViewCustomize"
+                android:text="@string/three"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <TextView
+                style="@style/textViewCustomize"
+                android:text="@string/ques3"
+                android:textAppearance="?android:textAppearanceLarge" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/optseven"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt7" />
+
+            <RadioButton
+                android:id="@+id/opteight"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt8" />
+
+            <RadioButton
+                android:id="@+id/optnine"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt9" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_view_3"
+                style="@style/answer" />
+
+            <ImageView
+                android:id="@+id/smiley3"
+                style="@style/answerImage" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#E1BEE7"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/textViewCustomize"
+                android:text="@string/four"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <TextView
+                style="@style/textViewCustomize"
+                android:text="@string/ques4"
+                android:textAppearance="?android:textAppearanceLarge" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/optten"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt10" />
+
+            <RadioButton
+                android:id="@+id/opteleven"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt11" />
+
+            <RadioButton
+                android:id="@+id/opttwelve"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt12" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_view_4"
+                style="@style/answer" />
+
+            <ImageView
+                android:id="@+id/smiley4"
+                style="@style/answerImage" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#E1BEE7"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/textViewCustomize"
+                android:text="@string/five"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <TextView
+                style="@style/textViewCustomize"
+                android:text="@string/ques5"
+                android:textAppearance="?android:textAppearanceLarge" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/opthirteen"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt13" />
+
+            <RadioButton
+                android:id="@+id/optfouteen"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt14" />
+
+            <RadioButton
+                android:id="@+id/optfifteen"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt15" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_view_5"
+                style="@style/answer" />
+
+            <ImageView
+                android:id="@+id/smiley5"
+                style="@style/answerImage" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#E1BEE7"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/textViewCustomize"
+                android:text="@string/six"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <TextView
+                style="@style/textViewCustomize"
+                android:text="@string/ques6"
+                android:textAppearance="?android:textAppearanceLarge" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/question6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/optsixteen"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt16" />
+
+            <RadioButton
+                android:id="@+id/optseventeen"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt17" />
+
+            <RadioButton
+                android:id="@+id/opteighteen"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt18" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_view_6"
+                style="@style/answer" />
+
+            <ImageView
+                android:id="@+id/smiley6"
+                style="@style/answerImage" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#E1BEE7"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/textViewCustomize"
+                android:text="@string/seven"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <TextView
+                style="@style/textViewCustomize"
+                android:text="@string/ques7"
+                android:textAppearance="?android:textAppearanceLarge" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/question7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/nineteen"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt19" />
+
+            <RadioButton
+                android:id="@+id/twenty"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt20" />
+
+            <RadioButton
+                android:id="@+id/twentyone"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt21" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_view_7"
+                style="@style/answer" />
+
+            <ImageView
+                android:id="@+id/smiley7"
+                style="@style/answerImage" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#E1BEE7"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/textViewCustomize"
+                android:text="@string/eight"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <TextView
+                style="@style/textViewCustomize"
+                android:text="@string/ques8"
+                android:textAppearance="?android:textAppearanceLarge" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/question8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/twentytwo"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt22" />
+
+            <RadioButton
+                android:id="@+id/twentythree"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt23" />
+
+            <RadioButton
+                android:id="@+id/twentyfour"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt24" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_view_8"
+                style="@style/answer" />
+
+            <ImageView
+                android:id="@+id/smiley8"
+                style="@style/answerImage" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#E1BEE7"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/textViewCustomize"
+                android:text="@string/nine"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <TextView
+                style="@style/textViewCustomize"
+                android:text="@string/ques9"
+                android:textAppearance="?android:textAppearanceLarge" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/question9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/twentyfive"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt25" />
+
+            <RadioButton
+                android:id="@+id/twentysix"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt26" />
+
+            <RadioButton
+                android:id="@+id/twentyseven"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt27" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_view_9"
+                style="@style/answer" />
+
+            <ImageView
+                android:id="@+id/smiley9"
+                style="@style/answerImage" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="#E1BEE7"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/textViewCustomize"
+                android:text="@string/ten"
+                android:textAppearance="?android:textAppearanceLarge" />
+
+            <TextView
+                style="@style/textViewCustomize"
+                android:text="@string/ques10"
+                android:textAppearance="?android:textAppearanceLarge" />
+        </LinearLayout>
+
+        <RadioGroup
+            android:id="@+id/question10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="2dp">
+
+            <RadioButton
+                android:id="@+id/twentyeight"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt28" />
+
+            <RadioButton
+                android:id="@+id/twentynine"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt29" />
+
+            <RadioButton
+                android:id="@+id/thirty"
+                style="@style/customizeButton"
+                android:onClick="option_one"
+                android:text="@string/opt30" />
+        </RadioGroup>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/text_view_10"
+                style="@style/answer" />
+
+            <ImageView
+                android:id="@+id/smiley10"
+                style="@style/answerImage" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                style="@style/last_two_buttons"
+                android:onClick="result"
+                android:text="@string/result" />
+
+            <Button
+                style="@style/last_two_buttons"
+                android:layout_marginLeft="10dp"
+                android:onClick="reset"
+                android:text="@string/reset" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

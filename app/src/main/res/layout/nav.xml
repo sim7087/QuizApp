@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBox
+        android:id="@+id/optOne"
+        style="@style/customizeButton"
+        android:onClick="option_two"
+        android:text="@string/opt1" />
+
+    <CheckBox
+        android:id="@+id/optTwo"
+        style="@style/customizeButton"
+        android:onClick="option_two"
+        android:text="@string/opt2" />
+
+    <CheckBox
+        android:id="@+id/optThree"
+        style="@style/customizeButton"
+        android:onClick="option_two"
+        android:text="@string/opt3" />
+</merge>

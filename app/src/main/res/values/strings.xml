@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <!-- topic of the quiz -->
+    <string name="bolly">Topic : Bollywood</string>
+    <string name="ans">Answers</string>
+    <string name="result">result</string>
+    <string name="reset">reset</string>
+    <!-- Question 1 with options-->
+    <string name="one">1.</string>
+    <string name="ques1">Which was the first Hindi Movie to receive the national award?</string>
+    <string name="opt1">Kabuliwala</string>
+    <string name="opt2">Do Aankhen Barah Hath</string>
+    <string name="opt3">Mirza Ghalib</string>
+    <!-- Question 2 with options-->
+    <string name="two">2.</string>
+    <string name="ques2">From where does Veeru propose to Basanti in Sholay?</string>
+    <string name="opt4">1. Top of a roof</string>
+    <string name="opt5">2.Top of a water tank</string>
+    <string name="opt6">3.Top of a ladder</string>
+    <!-- Question 3 with options-->
+    <string name="three">3.</string>
+    <string name="ques3">Who plays the blind friend in the 1964 Dosti?</string>
+    <string name="opt7">Ramu</string>
+    <string name="opt8">Dinu</string>
+    <string name="opt9">Mohan</string>
+    <!-- Question 4 with options-->
+    <string name="four">4.</string>
+    <string name="ques4">Which of these actors has never appeared in television advertisements?</string>
+    <string name="opt10">Govinda</string>
+    <string name="opt11">Anil Kapoor</string>
+    <string name="opt12">Shah Rukh Khan</string>
+    <!-- Question 5 with options-->
+    <string name="five">5.</string>
+    <string name="ques5">Aishwarya Rai was crowned Miss World in which year?</string>
+    <string name="opt13">1993</string>
+    <string name="opt14">1994</string>
+    <string name="opt15">1995</string>
+    <!-- Question 6 with options-->
+    <string name="six">6.</string>
+    <string name="ques6">For which of these films did Anil Kapoor shave off his moustache?</string>
+    <string name="opt16">Lamhe</string>
+    <string name="opt17">Gharwali Bahrwali</string>
+    <string name="opt18">Tezaab</string>
+    <!-- Question 7 with options-->
+    <string name="seven">7.</string>
+    <string name="ques7">Lata Mangeshkar made her debut in Hindi playback singing with the movie...?</string>
+    <string name="opt19">Barsaat</string>
+    <string name="opt20">Aap ke seva mein</string>
+    <string name="opt21">Deewar</string>
+    <!-- Question 8 with options-->
+    <string name="eight">8.</string>
+    <string name="ques8">Before Akshay Kumar became an actor, he worked as a...?</string>
+    <string name="opt22">Reporter</string>
+    <string name="opt23">Waitor</string>
+    <string name="opt24">Clerk</string>
+    <!-- Question 9 with options-->
+    <string name="nine">9.</string>
+    <string name="ques9">Which was the first film in which Amitabh and Jaya Bachchan worked together?</string>
+    <string name="opt25">Guddi</string>
+    <string name="opt26">Milli</string>
+    <string name="opt27">Ek Nazar</string>
+    <!-- Question 10 with options-->
+    <string name="ten">10.</string>
+    <string name="ques10">In which year did Amitabh Bachchan debut in Hindi cinema?</string>
+    <string name="opt28">1960</string>
+    <string name="opt29">1972</string>
+    <string name="opt30">1965</string>
+</resources>
